@@ -33,7 +33,6 @@ public class WordExportController {
         titleParagraphRun.setColor("000000");
         titleParagraphRun.setFontSize(20);
 
-
         //段落
         XWPFParagraph firstParagraph = document.createParagraph();
         XWPFRun run = firstParagraph.createRun();
